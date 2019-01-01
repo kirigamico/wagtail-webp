@@ -7,5 +7,11 @@ class WagtailWebPConfig(AppConfig):
     name = 'wagtail_webp'
 
     def ready(self):
-        from .image_operations import pillow_save_as_webp
+        from wagtail.images.models import Filter
+
+        from .image_operations import filter_run_patch, pillow_save_as_webp
+
         registry.register_operation(PillowImage, 'save_as_webp', pillow_save_as_webp)
+
+        # Monkeypatch Filter.run
+        Filter.run = filter_run_patch
