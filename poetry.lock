@@ -182,6 +182,14 @@ six = ">=1.11,<2.0"
 
 [[package]]
 category = "main"
+description = "Ctypes-based simple MagickWand API binding for Python"
+name = "wand"
+optional = false
+python-versions = "*"
+version = "0.4.5"
+
+[[package]]
+category = "main"
 description = "Character encoding aliases for legacy web content"
 name = "webencodings"
 optional = false
@@ -197,7 +205,7 @@ python-versions = "*"
 version = "1.1"
 
 [metadata]
-content-hash = "fa02bde90a22fb0fbfca6189cce42cacec7ec2841c1d77ac43cf279d665ab5b0"
+content-hash = "73ddce2d2acf94b9bb7d35277b4a6b9ee15110cc3caaace5cb52c9611ee66be6"
 python-versions = "^3.6"
 
 [metadata.hashes]
@@ -219,5 +227,6 @@ six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a
 unidecode = ["092cdf7ad9d1052c50313426a625b717dab52f7ac58f859e09ea020953b1ad8f", "8b85354be8fd0c0e10adbf0675f6dc2310e56fda43fa8fe049123b6c475e52fb"]
 urllib3 = ["61bf29cada3fc2fbefad4fdf059ea4bd1b4a86d2b6d15e1c7c0b582b9752fe39", "de9529817c93f27c8ccbfead6985011db27bd0ddfcdb2d86f3f663385c6a9c22"]
 wagtail = ["1dd069ef8b3a08728fa5304e45ee2a92ed49b8e235e9c8b677adfd2039cff1fd", "fa588695932178667f58347fb77cc85a34be963ccceafa818e0d7f9998c2cdf3"]
+wand = ["2d64f3d63f5fae997938451f77efad80ad47cd86d871fb758a4a7cc691be00c5", "b40a2215545e8c7193b3fccd6e7251dc556ec9b878a4f67d992b056ff396bc65"]
 webencodings = ["a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78", "b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923"]
 willow = ["76a8874304356b7d86923405f5ca1df125c3540fb55b32747e7a33ba59bc1744", "818ee11803c90a0a6d49c94b0453d6266be1ef83ae00de72731c45fae4d3e78c"]
